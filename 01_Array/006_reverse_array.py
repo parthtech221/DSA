@@ -2,7 +2,7 @@
 # Difficulty: Easy
 # Topic: Arrays
 # Time Complexity: O(n)
-# Space Complexity: O(1)
+# Space Complexity: O(n)
 
 def revers(arr):
     n=len(arr)-1
