@@ -10,6 +10,8 @@ def findindex(arr,target):
         index += 1
         if target==i:
             break
+        else:
+            return "not found"
     return index
 
-print(findindex([10,20,30,40],30))    
+print(findindex([10,20,30,40],5))    
