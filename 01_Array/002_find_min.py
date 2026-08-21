@@ -9,6 +9,6 @@ def find_min(arr):
     for i in arr:
         if min > i:
             min = i
-    return i
+    return min
 
 print(find_min([3,7,2,9,1]))        
