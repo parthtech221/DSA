@@ -5,9 +5,9 @@
 # Space Complexity: O(1)
 
 def two_sum(arr,target):
-    n = len(arr)+1
+    n = len(arr)
     for i in range(n):
-        for j in range(i,n):
+        for j in range(i+1,n):
             if (arr[i]+arr[j]) == target:
                 return [i,j]
     return "not found"

@@ -9,8 +9,7 @@ def missing_num(arr):
     for i in arr:
         if i != count :
             return count
-        if i == count:
-            count+=1
+        count+=1
     return "no missing number"
  
-print(missing_num([1,2,3,4,6]))              
+print(missing_num([1,2,3,4,]))              
