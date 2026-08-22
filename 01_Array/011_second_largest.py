@@ -2,7 +2,7 @@
 # Difficulty: Easy
 # Topic: Arrays
 # Time Complexity: O(n)
-# Space Complexity: O(n)
+# Space Complexity: O(1)
 
 def second_large(arr):
     if len(arr) < 2:
