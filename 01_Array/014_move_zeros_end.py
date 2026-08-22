@@ -1,7 +1,7 @@
 # Problem: move all zero to end
 # Difficulty: Easy
 # Topic: Arrays
-# Time Complexity: O(n^2)
+# Time Complexity: O(n)
 # Space Complexity: O(n)
 
 def move_zero(arr):
