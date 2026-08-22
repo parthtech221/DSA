@@ -12,4 +12,6 @@ def merge_arr(a,b):
         new_arr.append(i)
     return new_arr
 
-print(merge_arr([1,2,3],[4,5,6]))        
+print(merge_arr([1,2,3],[4,5,6])) 
+print(merge_arr([],[1,2]))
+       
