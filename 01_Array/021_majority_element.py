@@ -1,5 +1,5 @@
 #problem: majority element 
-# Difficulty: hard
+# Difficulty: easy
 # Topic: Arrays
 # Time Complexity: O(n^2)
 # Space Complexity: O(1)
@@ -15,4 +15,4 @@ def majority(arr):
     return "no majority element"             
     
 
-print(majority([1, 2, 2, 2, 3]))            
+print(majority([1, 2, 2, 2, 3]))
