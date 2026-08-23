@@ -8,8 +8,9 @@ def leaders(arr):
     new_arr = []
     for i in range(len(arr)):
         count = 0
+        leader = True
         for j in range(i+1,len(arr)):
-            leader = True
+            #leader = True
             if arr[i]<arr[j]:
                 leader = False
                 break
