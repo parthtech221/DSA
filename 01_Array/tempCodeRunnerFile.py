@@ -1,5 +1,1 @@
-# problem: leaders in array
-# Difficulty: Easy
-# Topic: Arrays
-# Time Complexity: O(n^2)
-# Space Complexity: O(n)
+print(find_single([4,1,2,1,4,3,3]))        

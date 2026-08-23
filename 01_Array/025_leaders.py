@@ -17,4 +17,4 @@ def leaders(arr):
       
     return new_arr
 
-print(leaders([20,16,13,17,4,3,5,2]))                       
+print(leaders([20,16,13,17,4,3,5,2])) 
