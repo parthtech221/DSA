@@ -1,7 +1,7 @@
 # problem: reverse array in place
 # Difficulty: Easy
 # Topic: Arrays
-# Time Complexity: O(n^2)
+# Time Complexity: O(n)
 # Space Complexity: O(1)
 
 def reverse(arr):
