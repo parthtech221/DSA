@@ -6,9 +6,14 @@
 
 def consecutive_max(arr):
     count=0
-    for i in range(1,len(arr)):
-        if arr[i-1]==arr[i]:
+    max_count = 0
+    for i in range(len(arr)):
+        if arr[i]==1:
             count+=1
-    return count
+            if count>max_count:
+                max_count=count
+        else:
+            count=0    
+    return max_count
 
-print(consecutive_max([1,1,0,1,1,1]))        
+print(consecutive_max([1,1,1,1,1,0,1,1,1]))        

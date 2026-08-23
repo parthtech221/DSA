@@ -7,8 +7,8 @@
 def reverse(arr):
     n = len(arr)-1
     for i in range(len(arr)//2):
-        if arr[i]==arr[n-i]:
-            return True
-    return False    
+        if arr[i]!=arr[n-i]:  
+            return False 
+    return True  
 
 print(reverse([1,2,3,2,1]))
