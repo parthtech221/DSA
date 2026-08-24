@@ -4,7 +4,6 @@
 # Time Complexity: O(n)
 # Space Complexity: O(1)
 
-
 def second_smallest(arr):
     if len(arr) < 2:
         return None
