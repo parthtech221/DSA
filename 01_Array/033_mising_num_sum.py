@@ -14,3 +14,4 @@ def missing_num(arr):
     return actual_sum-sum
 
 print(missing_num([1,2,3,5,6]))
+print(missing_num([2,3,4,5]))

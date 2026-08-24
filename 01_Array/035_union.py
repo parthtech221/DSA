@@ -12,6 +12,6 @@ def union(arr1,arr2):
                 count=True
         if count==False:
             arr2.append(i)        
-    return arr2
+    return sorted(arr2)
 
 print(union([1,2,3],[3,4,5]))            

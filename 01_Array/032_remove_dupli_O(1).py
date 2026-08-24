@@ -15,3 +15,4 @@ def remove_dupli(arr):
     return arr 
 
 print(remove_dupli([1,1,2,2,3,4,4]))
+print(remove_dupli([1,1,1,1]))

@@ -1,8 +1,8 @@
 # problem: find intersection of two array
 # Difficulty: Easy
 # Topic: Arrays
-# Time Complexity: O(n^2)
-# Space Complexity: O(n)
+# Time Complexity: O(n*m)
+# Space Complexity: O(k)
 
 def intersection(arr1,arr2):
     new_arr=[]
