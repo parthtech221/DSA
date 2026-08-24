@@ -7,11 +7,12 @@
 def movexero(arr):
     n=len(arr)
     previous = 0
-    for i in range(1,n-1):
+    for i in range(1,n):
         if arr[previous]!=0 and arr[i]==0:
             previous+=1
         if arr[previous]==0 and arr[i]!=0:
             arr[i],arr[previous]=arr[previous],arr[i]
+            previous+=1
     return arr
                 
-print(movexero([1,0,2,0,3,0]))        
+print(movexero([1,0,2,0,3,0,0,4]))        
