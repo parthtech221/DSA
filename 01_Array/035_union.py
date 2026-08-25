@@ -1,4 +1,4 @@
-# problem: Find Union of Two Arrays
+# problem: Find Union Of Two Arrays
 # Difficulty: Easy
 # Topic: Arrays
 # Time Complexity: O(n^2)
