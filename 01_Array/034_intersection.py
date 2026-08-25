@@ -13,3 +13,4 @@ def intersection(arr1,arr2):
     return new_arr
 
 print(intersection([1,2,3,4],[3,4,5,6]))        
+print(intersection([2,4,5],[5,1]))
