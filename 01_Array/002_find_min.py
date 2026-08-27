@@ -1,5 +1,5 @@
 # Problem: Find Minimum Element
-# Difficulty: Easy
+# Difficulty:Easy
 # Topic: Arrays
 # Time Complexity: O(n)
 # Space Complexity: O(1)
