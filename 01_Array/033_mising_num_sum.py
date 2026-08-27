@@ -1,4 +1,4 @@
-# problem: Find Missing Number (Sum Formula)
+# problem: Find Missing Number(Sum Formula)
 # Difficulty: Easy
 # Topic: Arrays
 # Time Complexity: O(n)
