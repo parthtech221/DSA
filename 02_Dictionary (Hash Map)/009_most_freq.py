@@ -7,6 +7,7 @@
 def most_frequent(array):
     freq = {}
     max = 0
+    element = 0
     for i in array:
         if i not in freq:
             freq[i]=1
@@ -15,6 +16,7 @@ def most_frequent(array):
             
         if freq[i]>max:
             max = freq[i]
-    return max        
+            element = i
+    return element       
 
 print(most_frequent([1,2,2,3,2]))
