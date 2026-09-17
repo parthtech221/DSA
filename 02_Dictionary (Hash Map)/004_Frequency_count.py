@@ -1,3 +1,9 @@
+# Problem: frequency count
+# Difficulty:Easy
+# Topic: hashmap
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 def freq_count(arry):
     freq = {}
     for i in arry:
