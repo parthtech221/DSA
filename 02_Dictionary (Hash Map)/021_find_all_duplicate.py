@@ -12,7 +12,7 @@ def all_duplicate(array):
             check[i]=1
         else:
             check[i]+=1    
-        if check[i]>1:
+        if check[i]==2:
             new_array.append(i)
     return new_array
 
